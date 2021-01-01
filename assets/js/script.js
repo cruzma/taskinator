@@ -218,10 +218,10 @@ var dropTaskHandler = function(event){
         statusSelectEl.selectedIndex = 0;
     }
     else if(statusType === "tasks-in-progress"){
-        statusSelectEl.selectedIndex = 0;
+        statusSelectEl.selectedIndex = 1;
     }
     else if(statusType === "tasks-completed"){
-        statusSelectEl.selectedIndex = 0;
+        statusSelectEl.selectedIndex = 2;
     }
 
     dropZoneEl.appendChild(draggableElement);
